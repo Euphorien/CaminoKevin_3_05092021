@@ -9,13 +9,10 @@
 
     <body>
 
-        <div class="loader">
-            <div class="loader__itemContainer">
-              <div class="loader__item loader__item--1"></div>
-              <div class="loader__item loader__item--2"></div>
-              <div class="loader__item loader__item--3"></div>
-            </div>
-        </div>
+    <div class="loader">
+        <div class="loader_circle"></div>
+    </div>
+
 
         <header>
         <div class="titre">
@@ -41,10 +38,11 @@
         <section>
         <div class="fonctionnement">
             <h2 class="fct">Fonctionnement</h2> 
+            <div class="flex">
               <div class="border"><p class="chiffre primarycolor">1</p><i class="fas fa-mobile-alt icone_fct"></i>Choissisez un restaurant</div>
               <div class="border"><p class="chiffre primarycolor">2</p><i class="fas fa-list-ul icone_fct"></i>Composez votre menu</div>
               <div class="border"><p class="chiffre primarycolor">3</p><i class="fas fa-store icone_fct"></i>Dégustez au restaurant</div>
-            </ol>
+            </div>
         </div>    
         </section>
 
@@ -52,58 +50,57 @@
             <div class="carre">
                 <h2 class="titre_resto">Restaurants</h2>
                 <div class="menus">
-                    <a class="menu" href="/la-palette-du-gout.html">
+
+                    <a class="menu" href="la_palette_du_gout.html">
                         <img class="menu_image" src="restaurants/1.jpg" alt="la palette du goût">
                         <span class="nouveau">Nouveau</span>
                         <div class="sous_menu">
                             <div class="text_menu">
-                                <p>La palette du goût</p>
+                                <p class="bold">La palette du goût</p>
                                 <p>Ménilmontant</p>
                             </div>
                             <div class="bouton_menu">
-                                <i class="card__like fa-2x fa-heart fa"></i>
+                                <i class="fa-2x far fa-heart"></i>
                             </div>
                         </div>
                     </a>
 
-                    <a class="menu" href="/la-palette-du-gout.html">
-                        <img class="menu_image" src="restaurants/1.jpg" alt="la palette du goût">
+                    <a class="menu" href="la_note_enchantee.html">
+                        <img class="menu_image" src="restaurants/2.jpg" alt="la palette du goût">
                         <span class="nouveau">Nouveau</span>
                         <div class="sous_menu">
                             <div class="text_menu">
-                                <p>La palette du goût</p>
-                                <p>Ménilmontant</p>
+                                <p class="bold">La note enchantée</p>
+                                <p>Charonne</p>
                             </div>
                             <div class="bouton_menu">
-                                <i class="card__like fa-2x fa-heart fa"></i>
+                                <i class="fa-2x far fa-heart"></i>
                             </div>
                         </div>
                     </a>   
 
-                    <a class="menu" href="/la-palette-du-gout.html">
-                        <img class="menu_image" src="restaurants/1.jpg" alt="la palette du goût">
-                        <span class="nouveau">Nouveau</span>
+                    <a class="menu" href="a_la_francaise.html">
+                        <img class="menu_image" src="restaurants/3.jpg" alt="la palette du goût">
                         <div class="sous_menu">
                             <div class="text_menu">
-                                <p>La palette du goût</p>
-                                <p>Ménilmontant</p>
+                                <p class="bold">A la française</p>
+                                <p>Cité Rouge</p>
                             </div>
                             <div class="bouton_menu">
-                                <i class="card__like fa-2x fa-heart fa"></i>
+                                <i class="fa-2x far fa-heart"></i>
                             </div>
                         </div>
                     </a>   
 
-                    <a class="menu" href="/la-palette-du-gout.html">
-                        <img class="menu_image" src="restaurants/1.jpg" alt="la palette du goût">
-                        <span class="nouveau">Nouveau</span>
+                    <a class="menu" href="le_delice_des_sens.html">
+                        <img class="menu_image" src="restaurants/4.jpg" alt="la palette du goût">
                         <div class="sous_menu">
                             <div class="text_menu">
-                                <p>La palette du goût</p>
-                                <p>Ménilmontant</p>
+                                <p class="bold">Le délice des sens</p>
+                                <p>Folie-Méricourt</p>
                             </div>
                             <div class="bouton_menu">
-                                <i class="card__like fa-2x fa-heart fa"></i>
+                                <i class="fa-2x far fa-heart"></i>
                             </div>
                         </div>
                     </a>      
@@ -112,22 +109,25 @@
         </section>
         
         <footer class="footer">
-            <div class="container">
-              <span class="footer__logo">ohmyfood</span>
-              <ul class="footer__list">
-                <li class="footer__listElt">
-                  <a class="footer__link" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
-                </li>
-                <li class="footer__listElt">
-                  <a class="footer__link" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir partenaire</a>
-                </li>
-                <li class="footer__listElt">
-                  <a class="footer__link" href="#">Mentions légales</a>
-                </li>
-                <li class="footer__listElt">
-                  <a class="footer__link" href="mailto:contact@ohmyfood.com">Contact</a>
-                </li>
-              </ul>
+            <div class="carre_footer">
+            <p class="footer_logo">ohmyfood</p>
+                <div class="bloc_liens">
+                    <div>
+                        <a class="lien" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
+                    </div>
+
+                    <div>
+                      <a class="lien" href="#"><i class="footer__icon2 fas fa-hands-helping"></i>Devenir partenaire</a>
+                    </div>
+                   
+                    <div>
+                      <a class="lien" href="#">Mentions légales</a>
+                    </div>
+
+                    <div>
+                      <a class="lien" href="mailto:contact@ohmyfood.com">Contact</a>
+                    </div>
+                </div>
             </div>
         </footer>
         
