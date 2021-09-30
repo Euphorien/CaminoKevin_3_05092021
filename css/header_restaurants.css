@@ -1,0 +1,32 @@
+                                                             /**********************************************
+                                                                                GLOBAL 
+                                                             **********************************************/
+
+
+.header
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+.header__critere_titre
+    {
+        font-family: Shrikhand, "cursive;";
+        margin-bottom: 10px;
+    }
+
+.header__back
+    {
+       position: absolute;
+       left: 15px;
+       color: inherit;
+    }
+
+.header__image
+    {
+        height: 15rem;
+        width: 100%;
+        margin: 0;
+        object-fit: cover;
+    }
