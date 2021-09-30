@@ -4,48 +4,48 @@
 
 
 .footer
-    {
-        background-color: #353535;
-    }
+{
+    background-color: #353535;
+}
 
 .footer__carre
-    {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-    }
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
 
 .footer__logo
-    {
-        color: #fff;
-        font-family: Shrikhand, "cursive";
-        font-size: 1.2rem;
-        margin: 0 0 1rem;
-    }
+{
+    color: #fff;
+    font-family: Shrikhand, "cursive";
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+}
 
 .footer__icon
-    {
-        margin-right: 1rem;
-    }
+{
+    margin-right: 1rem;
+}
 
 .footer__icon2
-    {
-        margin-right: 0.5rem;
-    }
+{
+    margin-right: 0.5rem;
+}
 
 .footer__bloc_liens
-    {
-        padding: 0;
-        margin: 0;
-    }
+{
+    padding: 0;
+    margin: 0;
+}
 
 
 .footer__lien
-    {
-        color: #fff;
-        text-decoration: none;
-        line-height: 1.75;
-    }
+{
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.75;
+}
 
 
                                                              /**********************************************
