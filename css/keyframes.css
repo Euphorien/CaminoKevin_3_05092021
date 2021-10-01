@@ -46,21 +46,3 @@
         transform:scale(1);
     }
 }
-
-@keyframes confirmationanim
-{
-    0% 
-    {
-        width: 0rem;
-        opacity: 0;
-        margin-right: 0;
-        visibility: hidden;
-    }
-    100% 
-    {
-        width: 5rem;
-        opacity: 1;
-        margin-right: 25px;
-        visibility: visible;
-    }
-}
