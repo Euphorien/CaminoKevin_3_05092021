@@ -271,6 +271,16 @@ html,body
     margin-left: 9rem;
 }
 
+.restaurants__bouton_menu2
+{
+    height: 2rem;
+    width: 2rem;
+    border: 0 solid transparent;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 11rem;
+}
+
 .footer
 {
     background-color: #353535;

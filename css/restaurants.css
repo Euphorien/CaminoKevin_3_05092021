@@ -95,6 +95,9 @@ html,body
     width: 95%;
     height: 80px;
     margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .menus__fond_blanc2
@@ -104,6 +107,9 @@ html,body
     box-shadow: .25rem .25rem .5rem rgba(0,0,0,.125);
     width: 95%;
     height: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .menus__texte_menu
@@ -113,6 +119,9 @@ html,body
     padding-right: 1.5rem;
     line-height: 1;
     margin: 0;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
 }
 
 .menus__sous_texte_menu1
@@ -134,22 +143,56 @@ html,body
     font-size: 14px;
 }
 
-
-.menu__confirmation
+/*.menu__confirmation
 {
+    animation: slide-left 0.3s ease-in-out both;
+    position: absolute;
+    margin-left: 82%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #99e2d0;
-    margin: -4.4rem -5rem -1rem 18rem;
-    width: 4rem;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 81px;
+    margin-bottom: 9%;
+}*/
+
+
+.menu__confirmation:hover
+{
+    animation: slide-left 0.3s ease-in-out both;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99e2d0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 81px;
+    position: absolute;
+    margin-left: 98%;
+    margin-bottom: 9%;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
 }
 
 .menu__icone_confirmation
 {
+    opacity: 0;
+}
+
+.menu__icone_confirmation:hover
+{
+    animation: rotate-top 0.5s ease-in-out both;
     height: 1.6rem;
     width: 1.6rem;
     background-color: #fff;
@@ -157,10 +200,21 @@ html,body
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(180deg);
-    transition-duration: .5s;
-    transition: transform 330ms;
+    opacity: 1;
 }
+
+@keyframes rotate-top {
+  0% {
+    transform: rotate(0);
+    transform-origin: top;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: top;
+  }
+}
+
+
 
 .menu__Item__icon
 {

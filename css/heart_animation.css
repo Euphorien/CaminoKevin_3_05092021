@@ -1,0 +1,14 @@
+.restaurants__heart
+{
+    font-size: 18px;
+    color: grey;
+}
+
+.restaurants__heart:hover
+{
+    animation: remplissage 1s ease-out;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
