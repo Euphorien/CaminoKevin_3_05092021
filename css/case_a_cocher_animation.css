@@ -1,0 +1,128 @@
+                                                             /**********************************************
+                                                                                GLOBAL 
+                                                             **********************************************/
+
+
+.menu__confirmation
+{
+    width: 0%;
+    height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99e2d0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 19.5%;
+    position: absolute;
+    margin-bottom: 1.8%;
+}
+
+.menus__fond_blanc:hover .menu__confirmation
+{
+    width: 15%;
+    height: 81px;
+    margin-left: 102.5%;
+    animation: slide-left 0.4s ease-in-out both;
+    margin-bottom: 9%;
+}
+
+.menus__fond_blanc2:hover .menu__confirmation
+{
+    width: 15%;
+    height: 81px;
+    margin-left: 102.5%;
+    animation: slide-left 0.4s ease-in-out both;
+    margin-bottom: 9%;
+}
+
+.menu__icone_confirmation
+{
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+
+.menus__fond_blanc:hover .menu__icone_confirmation
+{
+    animation: rotate 0.5s ease-in-out both;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    opacity: 1;
+}
+
+.menus__fond_blanc2:hover .menu__icone_confirmation
+{
+    animation: rotate 0.5s ease-in-out both;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    opacity: 1;
+}
+
+.menus__fond_blanc:hover .menu__prix
+{
+    margin-right: 55px;
+}
+
+.menus__fond_blanc2:hover .menu__prix
+{
+    margin-right: 55px;
+}
+
+.menu__Item__icon
+{
+    color: #99e2d0;
+}
+
+                                                             /**********************************************
+                                                                                Version tablette 
+                                                             **********************************************/
+
+@media screen and (min-width: 767.99px) and (max-width: 1109.99px)
+{
+    .menus__fond_blanc:hover .menu__confirmation
+    {
+        width: 10%;
+        margin-left: 81%;
+        margin-bottom: 4.2%;
+    }
+
+    .menus__fond_blanc2:hover .menu__confirmation
+    {
+        width: 10%;
+        margin-left: 81%;
+        margin-bottom: 4.2%;
+    }
+}
+
+
+                                                             /**********************************************
+                                                                                Version ordinateur 
+                                                             **********************************************/
+
+@media screen and (min-width: 1110px)
+{
+
+    .menus__fond_blanc:hover .menu__confirmation
+    {
+        width: 4%;
+        margin-left: 20.5%;
+        margin-bottom: 1.8%;
+    }
+
+    .menus__fond_blanc2:hover .menu__confirmation
+    {
+        width: 4%;
+        margin-left: 20.5%;
+        margin-bottom: 1.8%;
+    }
+}
