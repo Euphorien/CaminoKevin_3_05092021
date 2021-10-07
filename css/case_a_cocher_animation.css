@@ -20,20 +20,20 @@
 
 .menus__fond_blanc:hover .menu__confirmation
 {
-    width: 15%;
+    width: 20%;
     height: 81px;
-    margin-left: 102.5%;
+    margin-left: 97.5%;
     animation: slide-left 0.4s ease-in-out both;
-    margin-bottom: 9%;
+    margin-bottom: 9.8%;
 }
 
 .menus__fond_blanc2:hover .menu__confirmation
 {
-    width: 15%;
+    width: 20%;
     height: 81px;
-    margin-left: 102.5%;
+    margin-left: 97.5%;
     animation: slide-left 0.4s ease-in-out both;
-    margin-bottom: 9%;
+    margin-bottom: 9.8%;
 }
 
 .menu__icone_confirmation
@@ -78,6 +78,20 @@
     margin-right: 55px;
 }
 
+.menus__fond_blanc:hover .menus__texte--opacity
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.menus__fond_blanc2:hover .menus__texte--opacity
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 .menu__Item__icon
 {
     color: #99e2d0;
@@ -93,14 +107,14 @@
     {
         width: 10%;
         margin-left: 81%;
-        margin-bottom: 4.2%;
+        margin-bottom: 4.8%;
     }
 
     .menus__fond_blanc2:hover .menu__confirmation
     {
         width: 10%;
         margin-left: 81%;
-        margin-bottom: 4.2%;
+        margin-bottom: 4.8%;
     }
 }
 
@@ -116,13 +130,13 @@
     {
         width: 4%;
         margin-left: 20.5%;
-        margin-bottom: 1.8%;
+        margin-bottom: 2%;
     }
 
     .menus__fond_blanc2:hover .menu__confirmation
     {
         width: 4%;
         margin-left: 20.5%;
-        margin-bottom: 1.8%;
+        margin-bottom: 2%;
     }
 }
